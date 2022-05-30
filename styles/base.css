@@ -12,6 +12,7 @@
 body {
     background-color: var(--Cream);
     width: 100vw;
+    min-width: 320px;
     height: 100vh;
     font-family: 'DM Sans', sans-serif;
     overflow-y: auto;
