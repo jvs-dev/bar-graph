@@ -1,0 +1,19 @@
+.header__logo {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo__circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.circle--left {
+ border: solid 2px var(--Very_pale_orange);   
+ z-index: 2;
+}
+.circle--right {
+    background-color: var(--Dark_brown);
+    margin-left: -20px;
+}

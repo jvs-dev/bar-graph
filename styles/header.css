@@ -1,0 +1,25 @@
+.header {
+    background-color: var(--Soft_red);
+    border-radius: 10px;
+    width: 92%;
+    max-width: 450px;
+    display: flex;
+    padding: 17px;
+    margin-bottom: 16px;
+}
+.header__left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.header__tittle {
+    color: var(--Very_pale_orange);
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.header__input {
+    color: var(--Very_pale_orange);
+    font-weight: 700;
+    font-size: 25px;
+}

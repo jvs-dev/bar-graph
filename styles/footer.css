@@ -1,0 +1,30 @@
+.main__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.footer__left {
+    width: 50%;
+}
+.footer__input {
+    width: 100%;
+    color: var(--Dark_brown);
+    font-weight: 700;
+}
+.input--right {
+    text-align: right;
+}
+.input--left {
+    font-size: 32px;
+}
+.footer__tittle {
+    color: var(--Medium_brown);
+    font-weight: 400;
+    font-size: 0.88em;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Graph</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/logo.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/weekgraphic.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <h2 class="header__tittle">My balance</h2>
+            <input class="header__input" value="$921.48" type="text" name="" id="" disabled>
+        </div>
+        <div class="header__logo">
+            <div class="logo__circle circle--left"></div>
+            <div class="logo__circle circle--right"></div>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="main__tittle">Speding - Last 7 days</h1>
+        <section class="main__weekgraphic">
+
+
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--mon" id="mon" style="--cash: 40px;"></div>
+                <p class="weekgraphic__day">mon</p>
+            </div>
+
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--tue" id="tue" style="--cash: 90px;"></div>
+                <p class="weekgraphic__day">tue</p>
+            </div>
+            
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--wed" id="wed" style="--cash: 140px;"></div>
+                <p class="weekgraphic__day">wed</p>
+            </div>
+            
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--thu" id="thu" style="--cash: 80px;"></div>
+                <p class="weekgraphic__day">thu</p>
+            </div>
+            
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--fri" id="fri" style="--cash: 60px;"></div>
+                <p class="weekgraphic__day">fri</p>
+            </div>
+            
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--sat" id="sat" style="--cash: 110px;"></div>
+                <p class="weekgraphic__day">sat</p>
+            </div>
+            
+            <div class="weekgraphic__display">
+                <div class="weekgraphic__bar bar--sun" id="sun" style="--cash: 70px;"></div>
+                <p class="weekgraphic__day">sun</p>
+            </div>
+
+
+        </section>
+        <hr class="main__hr">
+        <footer class="main__footer">
+            <div class="footer__left">
+                <h2 class="footer__tittle title--left">Total this month</h2>
+                <input class="footer__input input--left" value="$478.33" type="text" name="" id="" disabled>
+            </div>
+            <div class="footer__right">
+                <input class="footer__input input--right" value="+2.4%" type="text" name="" id="" disabled>
+                <h2 class="footer__tittle tittle--right">from last month</h2>
+            </div>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

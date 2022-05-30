@@ -1,0 +1,135 @@
+.main__weekgraphic {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-end;
+}
+.weekgraphic__display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weekgraphic__day {
+    color: var(--Medium_brown);
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+.weekgraphic__bar {
+    background-color: var(--Soft_red);
+    width: 34px;
+    height: var(--cash);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.today {
+    background-color: var(--Cyan);
+}
+.bar--mon:hover:before {
+    content: '$21.47';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+.bar--tue:hover:before {
+    content: '$35.17';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+.bar--wed:hover:before {
+    content: '$52.36';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+.bar--thu:hover:before {
+    content: '$31.07';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+.bar--fri:hover:before {
+    content: '$24.57';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+.bar--sat:hover:before {
+    content: '$46.17';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+.bar--sun:hover:before {
+    content: '$26.17';
+    animation: updown 1.2s infinite;
+    transition: 0.2s;
+    background-color: var(--Dark_brown);
+    color: var(--Very_pale_orange);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 0.9em;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -12px;
+    transform: translateY(-40px);
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(-45px);
+    }
+    100% {
+        transform: translateY(-40px);
+    }
+}

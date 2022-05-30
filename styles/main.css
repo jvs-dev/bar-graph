@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Very_pale_orange);
+    border-radius: 10px;
+    width: 92%;
+    max-width: 450px;
+    padding: 17px 17px 30px 17px;
+}
+.main__tittle {
+    color: var(--Dark_brown);
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.main__hr {
+    border: 1px solid var(--Cream);
+    margin: 20px 0px;
+}
