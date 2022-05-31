@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--Soft_red);
+    background-color: var(--Soft-red);
     border-radius: 10px;
     width: 92%;
     max-width: 450px;
@@ -13,13 +13,13 @@
     width: 50%;
 }
 .header__tittle {
-    color: var(--Very_pale_orange);
+    color: var(--Very-pale-orange);
     font-weight: 400;
     font-size: 0.9em;
     margin-bottom: 5px;
 }
 .header__input {
-    color: var(--Very_pale_orange);
+    color: var(--Very-pale-orange);
     font-weight: 700;
     font-size: 25px;
 }

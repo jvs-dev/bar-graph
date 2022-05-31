@@ -10,10 +10,10 @@
     border-radius: 100%;
 }
 .circle--left {
- border: solid 2px var(--Very_pale_orange);   
+ border: solid 2px var(--Very-pale-orange);   
  z-index: 2;
 }
 .circle--right {
-    background-color: var(--Dark_brown);
+    background-color: var(--Dark-brown);
     margin-left: -20px;
 }

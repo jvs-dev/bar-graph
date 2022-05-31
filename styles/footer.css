@@ -14,7 +14,7 @@
 }
 .footer__input {
     width: 100%;
-    color: var(--Dark_brown);
+    color: var(--Dark-brown);
     font-weight: 700;
 }
 .input--right {
@@ -24,7 +24,7 @@
     font-size: 32px;
 }
 .footer__tittle {
-    color: var(--Medium_brown);
+    color: var(--Medium-brown);
     font-weight: 400;
     font-size: 0.88em;
 }
